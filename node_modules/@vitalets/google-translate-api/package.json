@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      "@vitalets/google-translate-api@8.0.0",
+      "C:\\anjas"
+    ]
+  ],
+  "_from": "@vitalets/google-translate-api@8.0.0",
+  "_id": "@vitalets/google-translate-api@8.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-CHOi8DRgDAoLlFQy9pm1KHUauIk5ZXys3+Eh0aSYxzJSuxAE7Z2UL8+5MgNdl1oX7t/O7u+SwGhkhu6+U1bNcg==",
+  "_location": "/@vitalets/google-translate-api",
+  "_phantomChildren": {
+    "@sindresorhus/is": "0.14.0",
+    "@szmarczak/http-timer": "1.1.2",
+    "cacheable-request": "6.1.0",
+    "decompress-response": "3.3.0",
+    "duplexer3": "0.1.5",
+    "get-stream": "4.1.0",
+    "lowercase-keys": "1.0.1",
+    "mimic-response": "1.0.1",
+    "p-cancelable": "1.1.0",
+    "to-readable-stream": "1.0.0",
+    "url-parse-lax": "3.0.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@vitalets/google-translate-api@8.0.0",
+    "name": "@vitalets/google-translate-api",
+    "escapedName": "@vitalets%2fgoogle-translate-api",
+    "scope": "@vitalets",
+    "rawSpec": "8.0.0",
+    "saveSpec": null,
+    "fetchSpec": "8.0.0"
+  },
+  "_requiredBy": [
+    "/caliph-api"
+  ],
+  "_resolved": "https://registry.npmjs.org/@vitalets/google-translate-api/-/google-translate-api-8.0.0.tgz",
+  "_spec": "8.0.0",
+  "_where": "C:\\anjas",
+  "author": {
+    "name": "Matheus Fernandes",
+    "email": "npm@matheus.top",
+    "url": "http://matheus.top"
+  },
+  "bugs": {
+    "url": "https://github.com/vitalets/google-translate-api/issues"
+  },
+  "dependencies": {
+    "configstore": "^5.0.1",
+    "got": "^9.6.0"
+  },
+  "description": "A free and unlimited API for Google Translate",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "codecov": "^3.8.1",
+    "coveralls": "^2.11.11",
+    "husky": "^3.0.4",
+    "np": "^7.6.0",
+    "nyc": "^15.1.0",
+    "xo": "^0.16.0"
+  },
+  "homepage": "https://github.com/vitalets/google-translate-api#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run lint && npm test"
+    }
+  },
+  "keywords": [
+    "translate",
+    "translator",
+    "google",
+    "translate",
+    "api",
+    "free",
+    "language"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@vitalets/google-translate-api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitalets/google-translate-api.git"
+  },
+  "scripts": {
+    "coverage": "nyc report --reporter=text-lcov | coveralls && nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "lint": "xo",
+    "release": "npm run lint && npm test && np --yolo --no-release-draft",
+    "test": "nyc ava"
+  },
+  "version": "8.0.0",
+  "xo": {
+    "space": 4,
+    "parserOptions": {
+      "ecmaScript": 7
+    }
+  }
+}

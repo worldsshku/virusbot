@@ -1,0 +1,89 @@
+{
+  "_args": [
+    [
+      "caliph-api@0.8.6",
+      "C:\\anjas"
+    ]
+  ],
+  "_from": "caliph-api@0.8.6",
+  "_id": "caliph-api@0.8.6",
+  "_inBundle": false,
+  "_integrity": "sha512-uYMFgbHw3yMfhkERjT6twCi6+1a0SMURiy1+qi+ZexC2dwcpWHNskLigZr3bpH00PI4aTixaZbqxe32dbBk10Q==",
+  "_location": "/caliph-api",
+  "_phantomChildren": {
+    "follow-redirects": "1.15.1",
+    "form-data": "4.0.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "caliph-api@0.8.6",
+    "name": "caliph-api",
+    "escapedName": "caliph-api",
+    "rawSpec": "0.8.6",
+    "saveSpec": null,
+    "fetchSpec": "0.8.6"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/caliph-api/-/caliph-api-0.8.6.tgz",
+  "_spec": "0.8.6",
+  "_where": "C:\\anjas",
+  "author": {
+    "name": "caliphdev",
+    "email": "admin@caliph.my.id"
+  },
+  "bugs": {
+    "url": "https://github.com/caliphdev/caliph-api/issues"
+  },
+  "depecrated": false,
+  "dependencies": {
+    "@vitalets/google-translate-api": "^8.0.0",
+    "axios": "^0.27.0",
+    "change-case": "^3.0.2",
+    "cheerio": "^1.0.0-rc.5",
+    "cookie": "^0.5.0",
+    "file-type": "^16.5.3",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "html-entities": "^1.2.1",
+    "instatouch": "^2.3.14",
+    "mathjs": "^10.4.3",
+    "mime": "^1.6.0",
+    "node-fetch": "^2.6.1",
+    "uglify-js": "^3.15.3",
+    "whois": "latest",
+    "yt-search": "^2.7.4",
+    "ytdl-core": "^4.9.1"
+  },
+  "description": "Simple API by Caliph",
+  "directories": {
+    "lib": "lib",
+    "lib/tools": "lib/tools",
+    "lib/game": "lib/game"
+  },
+  "homepage": "https://npm.caliphapi.com",
+  "keywords": [
+    "caliph-api",
+    "api",
+    "rest-api",
+    "scraper",
+    "downloader",
+    "tools",
+    "multifunctions",
+    "scrapers"
+  ],
+  "license": "GPL-3.0-or-later",
+  "main": "index.js",
+  "name": "caliph-api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caliphdev/caliph-api.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "version": "0.8.6"
+}

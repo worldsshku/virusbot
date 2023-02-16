@@ -1,0 +1,56 @@
+{
+  "_args": [
+    [
+      "@types/json-buffer@3.0.0",
+      "C:\\anjas"
+    ]
+  ],
+  "_from": "@types/json-buffer@3.0.0",
+  "_id": "@types/json-buffer@3.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-3YP80IxxFJB4b5tYC2SUPwkg0XQLiu0nWvhRgEatgjf+29IcWO9X1k8xRv5DGssJ/lCrjYTjQPcobJr2yWIVuQ==",
+  "_location": "/@types/json-buffer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@types/json-buffer@3.0.0",
+    "name": "@types/json-buffer",
+    "escapedName": "@types%2fjson-buffer",
+    "scope": "@types",
+    "rawSpec": "3.0.0",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0"
+  },
+  "_requiredBy": [
+    "/compress-brotli"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/json-buffer/-/json-buffer-3.0.0.tgz",
+  "_spec": "3.0.0",
+  "_where": "C:\\anjas",
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "contributors": [
+    {
+      "name": "Paul Hawxby",
+      "url": "https://github.com/phawxby"
+    }
+  ],
+  "dependencies": {},
+  "description": "TypeScript definitions for json-buffer",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped#readme",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/json-buffer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory": "types/json-buffer"
+  },
+  "scripts": {},
+  "typeScriptVersion": "2.0",
+  "types": "index",
+  "typesPublisherContentHash": "3e653db758e5ea8bb43afa948bb570021ae1b6d1fc4169f3fc96ec2a25faff3a",
+  "version": "3.0.0"
+}

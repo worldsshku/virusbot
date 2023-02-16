@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      "class-validator@0.13.2",
+      "C:\\anjas"
+    ]
+  ],
+  "_from": "class-validator@0.13.2",
+  "_id": "class-validator@0.13.2",
+  "_inBundle": false,
+  "_integrity": "sha512-yBUcQy07FPlGzUjoLuUfIOXzgynnQPPruyK1Ge2B74k9ROwnle1E+NxLWnUv5OLU8hA/qL5leAE9XnXq3byaBw==",
+  "_location": "/class-validator",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "class-validator@0.13.2",
+    "name": "class-validator",
+    "escapedName": "class-validator",
+    "rawSpec": "0.13.2",
+    "saveSpec": null,
+    "fetchSpec": "0.13.2"
+  },
+  "_requiredBy": [
+    "/javascript-obfuscator"
+  ],
+  "_resolved": "https://registry.npmjs.org/class-validator/-/class-validator-0.13.2.tgz",
+  "_spec": "0.13.2",
+  "_where": "C:\\anjas",
+  "author": {
+    "name": "TypeStack contributors"
+  },
+  "bugs": {
+    "url": "https://github.com/typestack/class-validator/issues"
+  },
+  "dependencies": {
+    "libphonenumber-js": "^1.9.43",
+    "validator": "^13.7.0"
+  },
+  "description": "Decorator-based property validation for classes.",
+  "es2015": "./esm2015/index.js",
+  "homepage": "https://github.com/typestack/class-validator#readme",
+  "license": "MIT",
+  "main": "./cjs/index.js",
+  "module": "./esm5/index.js",
+  "name": "class-validator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typestack/class-validator.git"
+  },
+  "sideEffects": false,
+  "tags": [
+    "validator",
+    "validation",
+    "decorators",
+    "typescript"
+  ],
+  "typings": "./types/index.d.ts",
+  "version": "0.13.2"
+}
